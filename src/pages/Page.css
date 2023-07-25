@@ -1,0 +1,188 @@
+.aboutus{
+    
+    background-image: url("../images/about1.avif");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center ;
+
+   
+}
+.about1{
+    font-size: 60px;
+    font-weight: lighter;
+    color: white;
+    padding-right: 20px;
+}
+.about2{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(210, 94, 49);
+}
+.courier1{
+    text-align: center;
+    padding: 200px;
+    background-image: url("../images/about1.avif");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center ;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.courier2{
+ 
+    background-image: url("../images/log1.avif");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center ;
+  
+}
+
+.courier3{
+  
+    background-image: url("../images/cash.avif");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center ;
+  
+}
+.courier4{
+ 
+    background-image: url("../images/log3.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center ;
+
+}
+
+.grlogo{
+    background-color: black ;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+    padding-top: 70px;
+ 
+
+
+}
+
+
+.courier5{
+    text-align: center;
+    padding: 200px;
+    background-image: url("../images/logo11.png");
+    background-repeat: no-repeat;
+    /* background-blend-mode: darken; */
+    background-size:contain;
+    background-position: left center ;
+    background-color: rgba(131, 126, 126, 0.795);
+    background-color:rgb(217, 109, 42);
+}
+
+.courier6{
+    
+    background-image: url("../images/coming.avif");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center ;
+    
+}
+.c1{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.c2{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(210, 94, 49);
+}
+
+.c3{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin-left: 700px;
+}
+.c4{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+   
+}
+
+.aboutus2{
+    width:900px;
+  
+}
+.aboutus3{
+    text-align: center;
+    padding: 50px;
+  
+}
+
+.get{
+    font-size: 50px;
+    font-weight: lighter;
+    padding-right: 30px;
+}
+.touch{
+    font-size: 50px;
+    font-weight: bold;
+}
+.cc1{
+    padding: 30px 0px;
+    color: grey;
+    font-size: 17px;
+
+}
+.cc2{
+    padding-bottom: 30px;
+    color: grey;
+    width: 330px;
+    font-size: 17px;
+    display: block;
+}
+.cc3{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.cc4{
+    padding-left: 30px;
+}
+.ccright{
+    width: 500px;
+    background-color: rgb(249, 250, 215);
+    padding: 50px 50px;
+    border: 1px solid rgb(249, 250, 215);
+    margin-top: 100px;
+    border-radius: 10px;;
+}
+.ccinput{
+    width: 370px;
+    height: 50px;
+    padding: 0px 40px;
+}
+.ccinput1{
+    width: 370px;
+    height: 100px;
+    padding: 10px 40px;
+}
+
+.ccbtn{
+    margin-top: 30px;
+    width: 370px;
+    padding: 10px;
+    border: none;
+    background-color: coral;
+   
+}
+.phone1{
+    width: 250px;
+}

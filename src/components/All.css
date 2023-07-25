@@ -1,0 +1,112 @@
+.container1{
+    background-image: url("../images/Capture333.png");
+    background-repeat: no-repeat;
+    background-position-x: -200px ;
+    width: 100%;
+    
+}
+.imgsc{
+    border-left: 5px solid black;
+    
+    
+};
+
+.courier{
+    background-image: url("../images/pakistan.gif");
+    background-repeat: no-repeat;
+
+}
+.track{
+    padding-top: 15px;
+    
+ 
+
+}
+.colon{
+    font-weight: bold;
+    padding-right: 50px;
+   
+}
+.input{
+    margin-bottom:40px;
+}
+.link{
+    text-decoration: none;
+    color:  white;
+   padding-bottom: 30px;
+   font-size: 14px;
+}
+.link:hover{
+    color:orangered;
+    font-weight: bold;
+}
+.link1{
+    padding-bottom: 20px;
+   
+
+}
+
+.signup{
+   padding: 10px 40px;
+   border-radius: 10px;
+   border: 1px solid orange;
+   background: none;
+   color: white;
+   font-size: 15px;
+   margin-left: -40px;;
+}
+
+.fot{
+    padding-top: 50px;
+}
+.deli{
+    border-radius: 10px;
+}
+.over{
+    color: black;
+    padding-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.ArrowForwardIosIcon{
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 97, 40);
+}
+.icone{
+    background: none;
+    border: none;
+    margin-right: 50px;;
+}
+.cardslider{
+    margin-left: -440px;
+    margin-top: -100px;
+}
+.map{
+    border-radius: 20px;
+}
+
+.pakistan{
+    background-image: url("../images/wmap.webp");
+    background-repeat: no-repeat;
+    background-color: #eee;
+    text-align: center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+
+}
+.landing{
+    padding: 150px;
+   
+   
+}
+.linkcontact{
+    text-decoration: none;
+color: white;
+padding-right: 20px;
+padding-top: 5px;
+}
+.linkcontact:hover{
+    color: black;
+    font-weight: bold;
+}

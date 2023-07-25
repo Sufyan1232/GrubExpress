@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #b9610f;
+	--mainColorLight: #5767aa;
+	--secondaryColor: black;
+	--textColor: #eee;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 125px;
+	padding: 0 2rem;
+	padding-top: none;
+	background-color: var(--textColor);
+	color: var(--textColor);
+	
+}
+
+nav a {
+	margin: 0 1rem;
+	color: black;
+	text-decoration: none;
+    font-size: 20px;
+	
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+.rates{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+	margin-top: 0px;
+	margin-left: 180px;
+	
+}
+.rates:hover{
+	background-color:  rgb(255, 128, 0);
+	color: black;
+	border: 1px solid black;
+	
+}
+.logoimg{
+	cursor: pointer;
+	margin-left: 40px;
+	margin-top: 10px;;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+    color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 500px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: black;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+        margin-left: 0;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
+.brand{
+	margin-left: -80px;
+	padding-left: 20px;
+}
+.neww{
+	background-color: #000000 !important;
+	padding: 5px 0px !important;
+	height: 100px;
+
+	
+
+}
+.me-auto{
+	
+	margin-left: 130px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 0px;
+	
+
+}
+.menucolor{
+	color: rgb(255, 128, 0);
+	background-color: black;
+}
+.menucolor:hover{
+	color: white;
+}

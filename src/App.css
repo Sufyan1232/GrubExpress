@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  cursor: url("data:image/png;base64,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"), auto;
+}
+
+.desktop{
+  position: fixed;
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
